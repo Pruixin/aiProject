@@ -1,0 +1,51 @@
+2026-05-12 03:17:30.228  INFO 20820 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2026-05-12 03:17:30.298  INFO 20820 --- [main] com.pangruixin.Application               : Starting Application using Java 21.0.7 with PID 20820 (D:\ideaProjects\biyesheji\template\target\classes started by 瑞鑫 in D:\ideaProjects\biyesheji\template)
+2026-05-12 03:17:30.299  INFO 20820 --- [main] com.pangruixin.Application               : No active profile set, falling back to 1 default profile: "default"
+2026-05-12 03:17:32.110  INFO 20820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-05-12 03:17:32.116  INFO 20820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-05-12 03:17:32.163  INFO 20820 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2026-05-12 03:17:33.663  INFO 20820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-12 03:17:33.681  INFO 20820 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-12 03:17:33.685  INFO 20820 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-12 03:17:33.685  INFO 20820 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-05-12 03:17:33.807  INFO 20820 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-12 03:17:33.808  INFO 20820 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3447 ms
+2026-05-12 03:17:34.340  INFO 20820 --- [main] c.g.y.a.MybatisPlusJoinAutoConfiguration : MPJSqlInjector init
+2026-05-12 03:17:34.831  WARN 20820 --- [main] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.pangruixin.domain.UserRole".
+2026-05-12 03:17:34.832  WARN 20820 --- [main] c.g.yulichang.injector.MPJSqlInjector    : class com.pangruixin.domain.UserRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2026-05-12 03:17:34.995  WARN 20820 --- [main] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.pangruixin.domain.RoleMenu".
+2026-05-12 03:17:34.995  WARN 20820 --- [main] c.g.yulichang.injector.MPJSqlInjector    : class com.pangruixin.domain.RoleMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2026-05-12 03:17:37.492  INFO 20820 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-05-12 03:17:37.543  WARN 20820 --- [main] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.pangruixin.domain.dto.UserSearchDto".
+2026-05-12 03:17:37.544  WARN 20820 --- [main] c.g.yulichang.injector.MPJSqlInjector    : class com.pangruixin.domain.dto.UserSearchDto ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2026-05-12 03:17:37.789  INFO 20820 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2026-05-12 03:17:37.998  INFO 20820 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-05-12 03:17:38.013  INFO 20820 --- [main] com.pangruixin.Application               : Started Application in 8.544 seconds (process running for 9.335)
+2026-05-12 03:17:44.281  INFO 20820 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2026-05-12 03:19:05.488  INFO 25980 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2026-05-12 03:19:05.545  INFO 25980 --- [main] com.pangruixin.Application               : Starting Application using Java 21.0.7 with PID 25980 (D:\ideaProjects\biyesheji\template\target\classes started by 瑞鑫 in D:\ideaProjects\biyesheji\template)
+2026-05-12 03:19:05.549  INFO 25980 --- [main] com.pangruixin.Application               : No active profile set, falling back to 1 default profile: "default"
+2026-05-12 03:19:07.037  INFO 25980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-05-12 03:19:07.042  INFO 25980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-05-12 03:19:07.080  INFO 25980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2026-05-12 03:19:08.525  INFO 25980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-12 03:19:08.536  INFO 25980 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2026-05-12 03:19:08.539  INFO 25980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-12 03:19:08.540  INFO 25980 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2026-05-12 03:19:08.635  INFO 25980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-12 03:19:08.636  INFO 25980 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3035 ms
+2026-05-12 03:19:09.082  INFO 25980 --- [main] c.g.y.a.MybatisPlusJoinAutoConfiguration : MPJSqlInjector init
+2026-05-12 03:19:09.540  WARN 25980 --- [main] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.pangruixin.domain.UserRole".
+2026-05-12 03:19:09.541  WARN 25980 --- [main] c.g.yulichang.injector.MPJSqlInjector    : class com.pangruixin.domain.UserRole ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2026-05-12 03:19:09.751  WARN 25980 --- [main] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.pangruixin.domain.RoleMenu".
+2026-05-12 03:19:09.752  WARN 25980 --- [main] c.g.yulichang.injector.MPJSqlInjector    : class com.pangruixin.domain.RoleMenu ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2026-05-12 03:19:11.767  INFO 25980 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2026-05-12 03:19:11.793  WARN 25980 --- [main] c.b.m.core.metadata.TableInfoHelper      : Can not find table primary key in Class: "com.pangruixin.domain.dto.UserSearchDto".
+2026-05-12 03:19:11.794  WARN 25980 --- [main] c.g.yulichang.injector.MPJSqlInjector    : class com.pangruixin.domain.dto.UserSearchDto ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+2026-05-12 03:19:11.868  INFO 25980 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2026-05-12 03:19:12.030  INFO 25980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2026-05-12 03:19:12.043  INFO 25980 --- [main] com.pangruixin.Application               : Started Application in 7.223 seconds (process running for 8.05)
+2026-05-12 03:19:47.239  INFO 25980 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-12 03:19:47.239  INFO 25980 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-12 03:19:47.241  INFO 25980 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-05-12 03:20:09.283  INFO 25980 --- [http-nio-8080-exec-2] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited

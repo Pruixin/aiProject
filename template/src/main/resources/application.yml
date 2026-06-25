@@ -1,0 +1,58 @@
+server:
+  application:
+    name: template
+mybatis-plus:
+  configuration:
+    da-config:
+      logic-delete-field: deleted #逻辑删除的代表字段
+      logic-not-delete-value: 0 #0代表未被删除
+      logic-delete-value: 1 #1代表已删除
+    map-underscore-to-camel-case: true  #数据库字段的_自动转换为驼峰
+  global-config:
+    db-config:
+      id-type: auto
+  mapper-locations: classpath*:/mapper/**/*.xml
+---
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/yunfan_jicang?characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password:
+    type: com.alibaba.druid.pool.DruidDataSource
+  sa-token:
+    # token名称 (同时也是cookie名称)
+    token-name: satoken
+    # token有效期，单位s 默认30天, -1代表永不过期
+    timeout: 2592000
+    # token临时有效期 (指定时间内无操作就视为token过期) 单位: 秒
+    activity-timeout: -1
+    # 是否允许同一账号并发登录 (为true时允许一起登录, 为false时新登录挤掉旧登录)
+    allow-concurrent-login: false
+    # 在多人登录同一账号时，是否共用一个token (为true时所有登录共用一个token, 为false时每次登录新建一个token)
+    is-share: false
+    # 是否从cookie中读取token (为true时代表允许, 为false时代表禁止)
+    is-read-cookie: false
+    # 是否向cookie中写入token (为true时代表允许, 为false时代表禁止)
+    is-write-cookie: false
+    #jwt密钥
+    jwt-secret-key: pangruixinzuitamakaopula
+  data:
+    redis:
+      host:
+      port: 6379
+      password: 
+      database: 0
+      lettuce:
+        pool:
+          max-active: 8
+          max-wait: -1
+          max-idle: 8
+          min-idle: 0
+        timeout: 5000
+password:
+  key: sheidoucaibudaodemiyaojiamimiyao
+file:
+  upload-dir: uploads
